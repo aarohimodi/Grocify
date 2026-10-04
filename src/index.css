@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.discount-bg {
+  background-image: url("./assets/fresh-fruits.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .discount-bg {
+    background-image: none;
+  }
+}
